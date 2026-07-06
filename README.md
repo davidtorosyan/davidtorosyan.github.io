@@ -1,9 +1,17 @@
-## Welcome to my portfolio
+# davidtorosyan.github.io
 
-This is not the portfolio, this is just a README.
+Personal portfolio site. Plain HTML + CSS — no build step, no dependencies.
 
-Check out the site here: https://davidtorosyan.com
+## Running locally
 
-### Building and Running
+Open `index.html` in a browser, or serve it:
 
-Check out the [scripts](scripts/) directory for instructions.
+```sh
+python -m http.server 8000
+```
+
+## Adding a project
+
+Copy an `<article class="card">` block in `index.html` and edit the
+title, description, language, and links. Language dot colors are defined
+in `assets/css/style.css` (`.dot-js`, `.dot-ts`, `.dot-py`, ...).
