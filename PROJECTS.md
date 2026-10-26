@@ -10,7 +10,6 @@ Surveyed 2026-10-26 from each repo's README, layout and main files.
 | Web apps | hood | Zoomable jigsaw map for learning LA County neighborhoods: pieces connect only as true geographic neighbors; zoom regions → groups → neighborhoods. | `/hood/` |
 | Web apps | consciousness-map | Phone-first guide to theories of consciousness on the Landscape of Consciousness taxonomy: main quiz, per-category quizzes, adaptive mega quiz, share links, Russian. | `/consciousness-map/` |
 | Web apps | factorio-hub | Resource-planning site for Factorio (Nuxt, PrimeVue). | factoriohub.net |
-| Web apps | eggo | Mobile-first egg tracker for a backyard flock; Google Sheet backend via Apps Script, offline queue. | `/eggo/` |
 | Web apps | resonate | Vocal pitch + waveform (YIN pitch detection, Web Audio). | `/resonate/` |
 | Web apps | strooplang | Stroop-effect test in multiple languages (Vue 3, Vitest, Cypress). | `/strooplang/` |
 | Libraries & tools | ti-js | TI-Basic interpreter/runtime for the browser, on npm. Links ti84-entertainment as "the old programs". | `/ti-js/` |
@@ -22,7 +21,6 @@ Surveyed 2026-10-26 from each repo's README, layout and main files.
 | Userscripts | letteropener | Love Letter card counting on Board Game Arena. | source only |
 | Userscripts | command.games | Dominion randomizer for dominion.games. | source only |
 | Userscripts | wikiwidth | "Toggle width" button for MediaWiki pages. | source only |
-| Open source | KingdomCreator (fork) | Maintained fork of Dominion Randomizer, served at kingdomfork.com. | kingdomfork.com |
 | Open source | ripgrep (fork) | Contributed `--ignore-file-case-insensitive` (ripgrep 11.0.0, commit 718a00f). | upstream commit |
 
 Folded into other cards rather than listed: consciousness-theory-quiz (the
@@ -33,6 +31,8 @@ ti84-entertainment (linked from ti-js).
 
 | Repo | Why |
 |---|---|
+| eggo | Owner's call: not for the portfolio. |
+| KingdomCreator (fork, kingdomfork.com) | Owner's call: not for the portfolio. |
 | BitwardenBackup | Personal backup utility. |
 | telegram-drillbot | 2019 Telegram menu-bot library; dated. |
 | wikimit (+ wikimit-hub) | Prototype; README says "Not ready yet". |
@@ -46,4 +46,3 @@ ti84-entertainment (linked from ti-js).
 - ti-js and riddles READMEs link to davidtorosyan.com; the site is now
   www.jimbo84.com.
 - resonate has no README; strooplang's README is Vite boilerplate.
-- Only hood and ti-js have icons in `assets/icons/`; the other cards show none.

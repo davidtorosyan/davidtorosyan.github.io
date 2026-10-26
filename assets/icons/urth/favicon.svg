@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <clipPath id="tile"><rect width="512" height="512" rx="113"/></clipPath>
+  <rect width="512" height="512" rx="113" fill="#0d1117"/>
+  <g clip-path="url(#tile)">
+    <polygon points="108,156 244,180 244,380 108,356" fill="#2dd4bf"/>
+    <polygon points="404,156 268,180 268,380 404,356" fill="#2dd4bf"/>
+  </g>
+</svg>

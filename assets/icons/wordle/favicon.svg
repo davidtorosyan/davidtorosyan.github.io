@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <clipPath id="tile"><rect width="512" height="512" rx="113"/></clipPath>
+  <rect width="512" height="512" rx="113" fill="#0d1117"/>
+  <g clip-path="url(#tile)">
+    <rect x="140" y="140" width="108" height="108" rx="18" fill="#4ade80"/>
+    <rect x="264" y="140" width="108" height="108" rx="18" fill="#facc15"/>
+    <rect x="140" y="264" width="108" height="108" rx="18" fill="#6b7280"/>
+    <rect x="264" y="264" width="108" height="108" rx="18" fill="#4ade80"/>
+  </g>
+</svg>

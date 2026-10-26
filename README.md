@@ -37,9 +37,10 @@ query string to the URL (e.g. `/?1`).
 ## Icons
 
 This repo owns the icons for the site and all project sites. Each
-project gets a glyph in `scripts/gen_icons.py` (run with `pip install
-pillow`, then `python scripts/gen_icons.py`) plus a matching
-hand-authored `favicon.svg`, published under `assets/icons/<project>/`:
+project's glyph is a list of shapes in `PROJECTS` in
+`scripts/gen_icons.py` (run with `pip install pillow`, then
+`python scripts/gen_icons.py`), which writes all of these under
+`assets/icons/<project>/`:
 
 - `favicon.svg` — modern browsers, and the portfolio card icon
 - `favicon.ico` — 16/32/48 fallback
