@@ -12,9 +12,27 @@ python -m http.server 8000
 
 ## Adding a project
 
-Copy an `<article class="card">` block in `index.html` and edit the
-title, description, language, and links. Language dot colors are defined
-in `assets/css/style.css` (`.dot-js`, `.dot-ts`, `.dot-py`, ...).
+Projects are grouped into `<section class="projects">` blocks in
+`index.html` (web apps, libraries & tools, just for fun, userscripts, open
+source); add `grid` to a section's class for two-column small cards. Copy an
+`<article class="card">` block into the right section and edit the title,
+description, language, and links. Language dot colors are defined in
+`assets/css/style.css` (`.dot-js`, `.dot-ts`, `.dot-py`, ...).
+[PROJECTS.md](PROJECTS.md) records which repos are listed and why.
+
+## Cache busting
+
+Local asset URLs in `index.html` carry `?v=<build>`, and the footer shows
+`build <build>`. Before pushing a change, run:
+
+```sh
+python scripts/bump_build.py
+```
+
+New CSS and icons then load immediately, and the footer tells you which
+build you're seeing. The HTML itself is cached by GitHub Pages for up to 10
+minutes. If the footer still shows the old build, hard-refresh or add any
+query string to the URL (e.g. `/?1`).
 
 ## Icons
 
